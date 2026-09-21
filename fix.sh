@@ -2,6 +2,12 @@ cat > /data/local/tmp/status.sh <<'EOF'
 #!/system/bin/sh
 
 PKGS="
+com.spotify.music
+com.google.android.apps.youtube.music
+ru.yandex.music
+com.gokadzev.musify.fdroid
+com.theveloper.pixelplay
+org.oxycblt.auxio
 com.sosauce.cutemusic
 org.telegram.messenger
 com.whatsapp.w4b
