@@ -1,8 +1,4 @@
 #!/system/bin/sh
-# fix_all.sh
-# Full "immunity" (Doze / AppOps / Standby / Freezer / Jobscheduler /
-# OEM autostart / netpolicy / runtime permissions) for a list of packages.
-# Run AS ROOT, after removing Frosty and REBOOTING.
 
 PKGS="
 com.spotify.music
@@ -70,7 +66,7 @@ android.permission.SCHEDULE_EXACT_ALARM
 android.permission.USE_EXACT_ALARM
 "
 
-LOG="/data/local/tmp/fix_all.log"
+LOG="/data/local/tmp/fix.log"
 
 # ─────────────────────────────────────────────────────────────
 # helpers
@@ -283,7 +279,7 @@ verify_pkg() {
 # ─────────────────────────────────────────────────────────────
 require_root
 : > "$LOG"
-log "=== fix_all.sh start ==="
+log "=== fix.sh start ==="
 log "users: $(all_user_ids)"
 
 for PKG in $PKGS; do
