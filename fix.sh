@@ -2,15 +2,20 @@
 
 PKGS="
 com.spotify.music
-com.google.android.apps.youtube.music
+com.google.android.youtube.music
 ru.yandex.music
 com.gokadzev.musify.fdroid
 com.theveloper.pixelplay
 org.oxycblt.auxio
 com.sosauce.cutemusic
+com.mardous.booming
+com.nikhil.yt
+
 org.telegram.messenger
 com.whatsapp.w4b
 com.whatsapp
+com.google.android.gms
+com.google.android.gsf
 com.google.android.gms
 com.google.android.youtube
 tv.twitch.android.app
