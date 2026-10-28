@@ -21,6 +21,9 @@ com.google.android.youtube
 tv.twitch.android.app
 com.discord
 com.x8bit.bitwarden
+com.kiwibrowser.browser
+org.cromite.cromite
+com.danosito.afterbird
 "
 
 # AppOps that we allow
