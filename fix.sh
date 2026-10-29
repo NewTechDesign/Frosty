@@ -14,7 +14,7 @@ com.nikhil.yt
 org.telegram.messenger
 com.whatsapp.w4b
 com.whatsapp
-com.google.android.gms
+com.android.vending
 com.google.android.gsf
 com.google.android.gms
 com.google.android.youtube
