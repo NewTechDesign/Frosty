@@ -24,6 +24,7 @@ com.x8bit.bitwarden
 com.kiwibrowser.browser
 org.cromite.cromite
 com.danosito.afterbird
+com.rosan.installer.x.revived
 "
 
 # AppOps that we allow
