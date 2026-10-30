@@ -10,6 +10,7 @@ org.oxycblt.auxio
 com.sosauce.cutemusic
 com.mardous.booming
 com.nikhil.yt
+chromahub.rhytm.app
 
 org.telegram.messenger
 com.whatsapp.w4b
